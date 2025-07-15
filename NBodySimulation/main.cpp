@@ -5,26 +5,6 @@
 //  Created by Bengin Sternas on 15.07.25.
 //
 
-/**
- * N-Body Gravity Simulation
- *
- * Eine komplexe Simulation der gravitativen Wechselwirkungen zwischen mehreren Körpern
- * unter Verwendung der Newton'schen Gravitationsgesetze.
- *
- * Features:
- * - Objektorientierte Architektur
- * - OpenGL-basierte Visualisierung
- * - Konfigurierbare Parameter
- * - Verschiedene Integrationsmethoden (Euler, Verlet, RK4)
- * - Energie- und Impulserhaltung-Monitoring
- *
- * Kompilierung in Xcode:
- * 1. Neues Command Line Tool Projekt erstellen (C++)
- * 2. OpenGL und GLUT Frameworks hinzufügen
- * 3. Build Settings -> Other Linker Flags: -framework OpenGL -framework GLUT
- * 4. Für Warnungen: GL_SILENCE_DEPRECATION definieren (siehe unten)
- */
-
 // Unterdrückt OpenGL Deprecation Warnungen
 #define GL_SILENCE_DEPRECATION
 
@@ -351,7 +331,7 @@ public:
         std::uniform_real_distribution<> dis(-1.0, 1.0);
         std::uniform_real_distribution<> massDis(0.5, 2.0);
         
-        // Zentraler massereicher Körper (optional)
+        // Zentraler massereicher Körper
         if (config.useCentralMass) {
             Body centralBody(Vector3D(0, 0, 0), Vector3D(0, 0, 0),
                            config.centralMass, 0.5);
