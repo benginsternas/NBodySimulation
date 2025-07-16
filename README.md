@@ -19,7 +19,7 @@ Diese Anwendung ist eine interaktive 3D-N-Body-Simulation, geschrieben in C++ un
 
 ## 🖥️ Screenshots
 
-![Simulation Vorschau](Screenshot.png)
+![Simulation Vorschau](NBodySimulation/Screenshot.png)
 
 ## 🔧 Voraussetzungen
 
