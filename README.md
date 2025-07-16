@@ -9,7 +9,7 @@ Diese Anwendung ist eine interaktive 3D-N-Body-Simulation, geschrieben in C++ un
   - Anzahl der Partikel
   - Simulationsraumgröße
   - Zeitauflösung
-  - Zentrale Masse (optional)
+  - Zentrale Masse
 - Verschiedene Integrationsmethoden:
   - Euler
   - Verlet
