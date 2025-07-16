@@ -1,4 +1,4 @@
-# N-Body Simulation in C++ with OpenGL
+# N-Body Simulation in C++ mit OpenGL
 
 Diese Anwendung ist eine interaktive 3D-N-Body-Simulation, geschrieben in C++ und visualisiert mit OpenGL. Sie simuliert gravitative Wechselwirkungen zwischen mehreren Partikeln in einem dreidimensionalen Raum.
 
